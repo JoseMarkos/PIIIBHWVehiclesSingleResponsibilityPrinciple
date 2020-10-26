@@ -42,9 +42,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="src\Application\Mobility\AirplaneMobility.cs" />
+    <Compile Include="src\Application\Mobility\CarMobility.cs" />
+    <Compile Include="src\Application\Mobility\VehicleMobility.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="src\Application\Mobility\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
